@@ -24,12 +24,17 @@ My research https://enderspub.kubertu.com/android-security-research-crypto-walle
 -p <packagename>      : Check if sensitive data stored in internal & external data
 -h                    : Help
 
-```
-Example
 
-For Data Forensic:  ```./andump.sh -p com.google.android```
+1. Input your strings that you want to search for in creds.txt
+2. `./andumz.sh -p <package name>`
 
-You want to find your plaint-text password in the entire application structure from out and in sandbox data, you just need to insert them in ```/src/rules.txt``` and run ```./andump.sh -p com.yourapp.android```
+Note: Place your strings in creds.txt line by line if you're looking for multiple strings
+
+For example:
+
+Place `password123` in creds.txt 
+
+`./andumz.sh -p com.google.wallet`
 
 # Do-na-te
 Just in case you love it!
