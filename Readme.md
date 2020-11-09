@@ -15,7 +15,7 @@ The different data storage options available on Android:
 My research https://enderspub.kubertu.com/android-security-research-crypto-wallet-local-storage-attack
 
 
-```
+
 
 # Usage
 
@@ -23,7 +23,7 @@ My research https://enderspub.kubertu.com/android-security-research-crypto-walle
 -ls                   : List installed package
 -p <packagename>      : Check if sensitive data stored in internal & external data
 -h                    : Help
-
+```
 
 1. Input your strings that you want to search for in creds.txt
 2. `./andumz.sh -p <package name>`
@@ -35,6 +35,7 @@ For example:
 Place `password123` in creds.txt 
 
 `./andumz.sh -p com.google.wallet`
+
 
 # Do-na-te
 Just in case you love it!
